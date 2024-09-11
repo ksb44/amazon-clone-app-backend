@@ -14,7 +14,7 @@ async function sendVerificationEmail(email,token){
         from: 'amazon.com',
         to:email,
         subject:'Verify your email',
-        text:`Please click the following link to verify your email : http://localhost:3000/api/email/verify/${token}`
+        text:`Please click the following link to verify your email : https://amazon-clone-app-backend.onrender.com/api/email/verify/${token}`
     }
      
     try {
